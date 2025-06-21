@@ -1,0 +1,29 @@
+0 Brother
+1 Call me
+2 Dislike
+3 Drink
+4 Fine
+5 Food
+6 Go
+7 GoodLuck
+8 Hello
+9 I am
+10 I Hate You
+11 I Love You
+12 Look
+13 Mom
+14 Okay
+15 Perfect
+16 Please
+17 Small
+18 Sorry
+19 Stop
+20 Tired
+21 Uneasy
+22 Wait
+23 Washroom
+24 Water
+25 What
+26 Why
+27 Yes
+28 You
