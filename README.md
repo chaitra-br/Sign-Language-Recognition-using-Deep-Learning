@@ -1,91 +1,102 @@
 # Sign-Language-Recognition-using-Deep-Learning
- Real-time hand sign to sentence conversion using computer vision and deep learning (Streamlit + OpenCV + TensorFlow)
-📌 Project Overview
-This project is designed to recognize Indian Sign Language gestures in real-time using a webcam. It leverages computer vision and a trained deep learning model to detect hand gestures, classify them, and convert them into meaningful English sentences interactively through a web app built using Streamlit.
 
-🚀 Features
-🖐️ Real-time hand gesture detection using webcam
+Real-time hand sign to sentence conversion using computer vision and deep learning (Streamlit + OpenCV + TensorFlow)
 
-🔤 Recognition of multiple sign language words
+---
 
-✍️ Sentence formation using selected gestures
+## 📌 Project Overview
 
-🧠 Trained deep learning model with keras_model.h5
+This project is designed to recognize Indian Sign Language gestures in real-time using a webcam. It leverages computer vision and a trained deep learning model to detect hand gestures, classify them, and convert them into meaningful English sentences interactively through a web app built using **Streamlit**.
 
-🎯 User-friendly interface with live feedback
+---
 
-🗂️ Sentence templates loaded from sentences.json
+## 🚀 Features
 
-🧠 Technologies Used
-Python
+* 🖐️ Real-time hand gesture detection using webcam
+* 🔤 Recognition of multiple sign language words
+* ✍️ Sentence formation using selected gestures
+* 🧠 Trained deep learning model with `keras_model.h5`
+* 🎯 User-friendly interface with live feedback
+* 🗂️ Sentence templates loaded from `sentences.json`
 
-TensorFlow / Keras
+---
 
-OpenCV
+## 🧠 Technologies Used
 
-Streamlit
+* Python
+* TensorFlow / Keras
+* OpenCV
+* Streamlit
+* cvzone (Hand detection and classification)
+* NumPy, Math
+* JSON
 
-cvzone (Hand detection and classification)
+---
 
-NumPy, Math
+## 🗂️ Folder Structure
 
-JSON
-
-🗂️ Folder Structure
-nginx
-Copy
-Edit
+```
 Sign Language Recognition/
-├── app.py                     # Streamlit app (possibly deprecated version)
-├── main.py                   # Main application to run with Streamlit
-├── back.py                   # Backend functions (e.g., for cleaning)
-├── datacollection.py         # Data collector for building dataset
-├── myenv/                    # Local virtual environment (do not upload)
-├── sentences.json            # Predefined sentence structures
-└── Finalyear_Project_Report_Group5.pdf  # Project report
-🛠️ How to Run
-Clone the Repository
+├── app.py                 # Streamlit app (alternate version)
+├── main.py                # Main Streamlit application
+├── back.py                # Backend functions for cleaning
+├── datacollection.py      # Script for dataset collection
+├── myenv/                 # Local virtual environment (not uploaded)
+├── sentences.json         # Predefined sentence structures
+```
 
-bash
-Copy
-Edit
+---
+
+## 🛠️ How to Run
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/sign-language-recognition.git
 cd sign-language-recognition
-Create Virtual Environment (Recommended)
+```
 
-bash
-Copy
-Edit
+### 2. Create Virtual Environment (Recommended)
+
+```bash
 python -m venv env
-source env/bin/activate   # On Windows: env\Scripts\activate
-Install Dependencies
+source env/bin/activate  # For Windows: env\Scripts\activate
+```
 
-bash
-Copy
-Edit
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-If requirements.txt is missing, you can use:
+```
 
-bash
-Copy
-Edit
+If `requirements.txt` is missing, you can use:
+
+```bash
 pip install streamlit opencv-python cvzone tensorflow numpy
-Run the App
+```
 
-bash
-Copy
-Edit
+### 4. Run the App
+
+```bash
 streamlit run main.py
-Make Sure:
+```
 
-Your webcam is enabled
+### ✅ Make Sure:
 
-keras_model.h5 and labels.txt are correctly placed in the model directory
+* Your webcam is enabled
+* `keras_model.h5` and `labels.txt` are correctly placed in the model directory
 
-📄 License
-This project is under the MIT License – feel free to use and modify.
+---
 
-🔗 Connect with Me:
-📧 Email: chaitrabr03@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/b-r-chaitra/
+## 📄 License
+
+This project is under the **MIT License** – feel free to use and modify.
+
+---
+
+## 🔗 Connect with Me
+
+**📧 Email:** [chaitrabr03@gmail.com](mailto:chaitrabr03@gmail.com)
+
+**🔗 LinkedIn:** [B R Chaitra](https://www.linkedin.com/in/b-r-chaitra/)
 
