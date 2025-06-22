@@ -98,5 +98,5 @@ This project is under the **MIT License** – feel free to use and modify.
 
 **📧 Email:** [chaitrabr03@gmail.com](mailto:chaitrabr03@gmail.com)
 
-**🔗 LinkedIn:** [B R Chaitra](https://www.linkedin.com/in/b-r-chaitra/)
+**🔗 LinkedIn:** [B R Chaitra](https://www.linkedin.com/in/br-chaitra/)
 
